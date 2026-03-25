@@ -1,6 +1,6 @@
 # Netflix Clone
 
-A React-based Netflix clone application that displays movies and TV shows using The Movie Database (TMDB) API.
+A React-based Netflix clone application that displays movies and TV shows using OMDB API.
 
 ## Features
 
@@ -19,8 +19,8 @@ A React-based Netflix clone application that displays movies and TV shows using 
    npm install
    ```
 
-3. Get a TMDB API key:
-   - Go to [TMDB](https://www.themoviedb.org/)
+3. Get a OMDB API key:
+   - Go to [OMDB]
    - Create an account
    - Go to Settings > API
    - Request an API key
@@ -29,7 +29,7 @@ A React-based Netflix clone application that displays movies and TV shows using 
 4. Create a `.env` file in the root directory and add your API key:
 
    ```
-   VITE_TMDB_API_KEY=your_api_key_here
+   VITE_OMDB_API_KEY=your_api_key_here
    ```
 
 5. Start the development server:
